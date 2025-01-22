@@ -1,2 +1,7 @@
 .env
 __pycache__/
+
+/docs/
+/test/
+/test-results/
+/CursorRules/
