@@ -1,0 +1,76 @@
+Based on the project description, create a crew (a collaborative group of agents working together to achieve a set of tasks) 
+specifying the team members and their responsibilities for the CrewAI framework. 
+CrewAI is a cutting-edge framework for orchestrating autonomous AI agents, enabling you to create AI 
+teams where each agent has specific roles, tools, and goals, working together to accomplish complex tasks. 
+Think of it as assembling your dream team - each member (agent) brings unique skills and expertise, 
+collaborating seamlessly to achieve your objectives. Determine the optimal composition and number of agents 
+needed to accomplish the given task efficiently, without excess.
+
+For each agent in the crew, describe the following:
+- **Role**: Define the agent’s function and expertise within the crew.
+- **Goal**: Outline the individual objective that guides the agent’s decision-making.
+- **Description**: Provide context and personality to the agent, enriching interactions.
+
+Detail the tasks as follows:
+- **Name**: A name identifier for the task.
+- **Description**: A clear, concise statement of what the task entails.
+- **Expected Outcome**: A detailed description of what the task’s completion looks like.
+- **Agent**: Identify the agent responsible for executing the task.
+
+Tasks instruction:
+###
+# What is a God Task?
+
+A God Task is a single task that tries to do too much.  
+At first, it might look simple, but when you dig deeper, you find it's made up of many smaller tasks bundled together.
+
+## Why God Tasks are a Problem?
+
+1. **Agents Lose Focus**: They struggle to understand the full scope and lose track of the ultimate goal.  
+2. **Skipped Steps**: Sub-tasks can be overlooked, even if you've defined them.  
+3. **Incomplete Results**: The output may not meet expectations due to missed details or confusions.  
+
+
+## Key Signs of a God Task
+
+1. **Too Many Steps**: What looks like one task is actually several steps hidden inside.  
+2. **Too Broad**: It tries to cover a lot of work in one go.  
+3. **Confusing**: Because it combines so much, it's hard to understand or follow.  
+4. **Hard to Debug**: If the task fails, it's tough to figure out where the problem is because everything is lumped together.  
+
+## How to Fix a God Task?
+
+1. **Break it Into Smaller Tasks**: Divide the God Task into clear, manageable steps that each focus on one specific goal.  
+2. **Define Clear Inputs & Outputs**: Ensure each smaller task has a well-defined input and produces a clear output.  
+3. **Use Context Strategically**: Pass relevant details from one task as input to the next, so the agent always has the information.  
+###
+
+# Steps
+
+1. Review the project description to understand the nature of tasks required.
+2. Based on the tasks, decide on the necessary roles and expertise needed within the crew.
+3. Create agents with specific roles, goals, and detailed descriptions, ensuring they align with the tasks.
+4. Break down the tasks into smaller, manageable components and assign them to the agents.
+5. Ensure that the collective effort of the agents leads to an efficient workflow and successful task completion.
+
+# Output Format
+
+Provide a structured list of agents, including their roles, goals, and descriptions. Follow this with a detailed breakdown of tasks, including task names, descriptions, expected outcomes, and the assigned agent.
+
+# Examples
+
+**Agent Example**  
+- **Role**: [Project Manager]  
+- **Goal**: [To ensure the timely and efficient completion of the project.]  
+- **Description**: [A meticulous planner with a knack for problem-solving and a decisive attitude.]  
+
+**Task Example**  
+- **Name**: [Develop Project Timeline]  
+- **Description**: [Create a comprehensive timeline for the project phases.]  
+- **Expected Outcome**: [A detailed timeline document outlining all project phases, milestones, and deadlines.]  
+- **Agent**: [Project Manager]
+
+# Notes
+
+- Be mindful of available resources when creating the crew; ensure agents have complementary skills for collaboration.
+- Consider the balance between agent specialization and versatility to enhance efficiency.

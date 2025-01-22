@@ -1,0 +1,157 @@
+technical_scalability_analysis:
+  description: >
+    Analyze the technological scalability of the solution:
+
+    1. Product adaptability:
+       - Evaluation of modularity and scalability
+       - Analysis of flexibility of software/hardware at different scales of production
+       - Investigation of customization capabilities for different use cases
+    
+    2. Integration capabilities:
+       - Analysis of compatibility with existing client technologies
+       - Evaluation of integration standards and APIs
+       - Investigation of technical requirements for integration
+    
+    3. Technical stability:
+       - Analysis of technical limitations at scale
+       - Evaluation of necessary technical resources
+       - Plan for technical development of the product
+
+    Use the following data for analysis:
+    ### Raw startup description
+    {startup_description}
+    ###
+    ### Demand research insights
+    {demand_research_insights}
+    ###
+    ### Barriers research insights
+    {barriers_research_insights}
+    ###
+    ### Competence level research insights
+    {competence_level_research_insights}
+    ###
+  expected_output: >
+    Technical document, containing:
+    1. Analysis of technological flexibility of the product
+    2. Evaluation of integration capabilities
+    3. Plan for technical scaling
+    4. Recommendations for optimization
+  agent: technical_architect
+
+business_model_scaling:
+  description: >
+    Develop a strategy for scaling the business model:
+
+    1. Monetization models:
+       - Analysis of effectiveness of different models (rental, subscription, sale)
+       - Evaluation of models for different regions and customer segments
+       - Strategies for quick customer acquisition
+    
+    2. Market expansion:
+       - Prioritization of regions for scaling
+       - Analysis of barriers to entry and ways to reduce them
+       - Strategies for adapting the product to local markets
+    
+    3. Long-term relevance:
+       - Plan for product development and updates
+       - Strategy for maintaining competitiveness
+       - Customer loyalty program
+
+    Use the following data for analysis:
+    ### Raw startup description
+    {startup_description}
+    ###
+    ### Demand research insights
+    {demand_research_insights}
+    ###
+    ### Barriers research insights
+    {barriers_research_insights}
+    ###
+    ### Competence level research insights
+    {competence_level_research_insights}
+
+  expected_output: >
+    Strategic document, containing:
+    1. Analysis of monetization models
+    2. Plan for market expansion
+    3. Strategy for long-term development
+    4. Financial forecasts
+  agent: business_strategist
+
+operations_scaling_plan:
+  description: >
+    Develop a plan for operational scaling:
+
+    1. Logistics infrastructure:
+       - Plan for logistics network development
+       - Strategy for optimizing supply chains
+       - Inventory management
+    
+    2. Technical support:
+       - Structure of support service
+       - Processes of customer service
+       - Quality standards of customer service
+    
+    3. Resource management:
+       - Plan for hiring and training staff
+       - Optimization of operational costs
+       - Forecast of resource needs
+
+    Use the following data for analysis:
+    ### Raw startup description
+    {startup_description}
+    ###
+    ### Demand research insights
+    {demand_research_insights}
+    ###
+    ### Barriers research insights
+    {barriers_research_insights}
+    ###
+    ### Competence level research insights
+    {competence_level_research_insights}
+
+  expected_output: >
+    Детальный операционный план, включающий:
+    1. Схему логистической сети
+    2. План развития технической поддержки
+    3. Бюджет операционных расходов
+    4. KPI эффективности
+  agent: operations_manager
+
+report_writing:
+  description: >
+    Создайте аналитический отчет о масштабируемости проекта:
+    
+    1. Технологическая масштабируемость:
+       - Описание адаптивности продукта
+       - Анализ интеграционных возможностей
+       - Evaluation of technical stability
+    
+    2. Business scalability:
+       - Analysis of monetization models
+       - Strategy for market expansion
+       - Strategy for long-term relevance
+    
+    3. Operational scalability:
+       - Plan for logistics network development
+       - Structure of support service
+       - Optimization of operational costs
+
+    Use the following data for analysis:
+    - Technical scalability analysis
+    - Business model scaling analysis
+    - Operations scaling plan
+
+  expected_output: >
+    Final section "2.4 Scalability" in Russian:
+    1. Clear description of technological scalability
+    2. Analysis of business model and growth strategies
+    3. Plan for operational scaling
+    4. Financial stability assessment
+    
+    Requirements to style:
+    - Professional business style
+    - Focus on factual data
+    - Clear structure and logical presentation
+    - Exclusion of subjective assessments
+  agent: report_writer

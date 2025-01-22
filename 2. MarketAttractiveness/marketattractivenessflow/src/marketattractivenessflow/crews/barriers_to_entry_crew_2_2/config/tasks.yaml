@@ -1,0 +1,173 @@
+market_analysis_task:
+  description: >
+    Based on the startup description and demand research insights,
+    conduct a comprehensive analysis of market barriers in Spain for 2024-2025:
+
+    1. Competitive Landscape Analysis:
+       - Detailed review of key market players
+       - Market shares and strategies
+       - Pricing policies and customer terms
+       - Competitors' strengths and weaknesses
+
+    2. Economic Barriers Evaluation:
+       - Minimum efficient scale of operations
+       - Required initial investments
+       - Access to distribution channels
+       - Economies of scale of existing players
+
+    3. Market Structure Assessment:
+       - Concentration levels
+       - Vertical integration
+       - Network effects
+       - Customer switching costs
+
+    Use current data sources and industry reports.
+
+    Here is a startup description:
+    {startup_description}
+
+    Here is a demand research insights:
+    {demand_research_insights}
+
+  expected_output: >
+    Detailed market barriers report including:
+    - Quantitative assessment of each barrier (scale 1-10)
+    - Financial evaluation of barrier overcome costs
+    - SWOT analysis of startup position
+    - Specific recommendations for each barrier
+    - Information sources used
+  agent: market_analyst
+
+technical_assessment_task:
+  description: >
+    Based on the startup description and demand research insights,
+    evaluate technical barriers to market entry in Spain for 2024-2025:
+
+    1. Infrastructure Requirements:
+       - Technical infrastructure needs
+       - Equipment and facilities requirements
+       - Digital infrastructure assessment
+       - Integration requirements
+
+    2. Technical Standards Analysis:
+       - Industry-specific standards
+       - Quality certifications needed
+       - Performance requirements
+       - Safety standards compliance
+
+    3. Resource Requirements:
+       - Human capital needs
+       - Technical expertise required
+       - Training and development needs
+       - Support infrastructure
+
+    Here is a startup description:
+    {startup_description}
+
+    Here is a demand research insights:
+    {demand_research_insights}
+
+  expected_output: >
+    Technical barriers report including:
+    - Detailed technical requirements matrix
+    - Infrastructure needs assessment with costs
+    - Resource allocation plan with timelines
+    - Implementation challenges ranked by priority
+    - Technical compliance roadmap
+    - Sources and methodologies used
+    - links to the sources and methodologies used
+  agent: technical_expert
+
+regulatory_analysis_task:
+  description: >
+    Based on the startup description and demand research insights,
+    analyze regulatory and legal barriers in Spain for 2024-2025:
+
+    1. Legal Framework Analysis:
+       - Industry-specific regulations
+       - Local business laws
+       - Environmental regulations
+       - Data protection requirements
+
+    2. Compliance Requirements:
+       - Required licenses and permits
+       - Industry certifications
+       - Quality standards
+       - Safety regulations
+
+    3. Documentation Requirements:
+       - Legal documentation needed
+       - Registration processes
+       - Reporting requirements
+       - Record-keeping obligations
+
+    Here is a startup description:
+    {startup_description}
+
+    Here is a demand research insights:
+    {demand_research_insights}
+
+  expected_output: >
+    Regulatory compliance report containing:
+    - Comprehensive legal requirements checklist
+    - Timeline for obtaining all necessary permits
+    - Cost estimation for compliance
+    - Risk assessment of regulatory changes
+    - Documentation requirements matrix
+    - Reference to specific laws and regulations
+    - links to the sources and methodologies used
+  agent: regulatory_advisor
+
+final_report_task:
+  description: >
+    Create a comprehensive analytical report on barriers to market entry, which should:
+
+    1. Potential analysis:
+    - Demonstrate a high positive potential of the project
+    - Highlight key factors of attractiveness for investors
+    - Highlight compliance with the criteria of immigration authorities
+
+    2. Technical aspect:
+    - Reveal the innovation of the technological solution
+    - Show compliance with the current trends in the industry
+    - Describe technological advantages over competitors
+
+    3. Market analysis:
+    - Demonstrate deep understanding of the market and its specifics
+    - Describe existing barriers to entry and strategies for overcoming them
+    - Present competitive analysis and positioning of the project
+
+    4. Compliance requirements:
+    - Compliance with the criteria of immigration authorities
+    - Highlight key advantages of the project for the country
+    - Justify the social and economic significance
+
+  expected_output: >
+    Final consolidated report in Russian for the section "2.2 Analysis of barriers to market entry".
+
+    Requirements for style and content:
+    1. Document structure:
+    - Clear separation into thematic blocks
+    - Logical sequence of presentation
+    - Presence of introduction and conclusion
+
+    2. Presentation style:
+    - Use of business style
+    - Clarity and concreteness of formulations
+    - Absence of subjective assessments
+
+    3. Actual content:
+    - Inclusion of specific numbers and metrics
+    - Use of relevant market data
+    - Confirmation of all statements with sources
+
+    4. Visual presentation:
+    - Use of tables and graphs
+    - Structured lists
+    - Highlighting key points
+
+    5. Sources:
+    - Mandatory indication of all used sources
+    - Preference for authoritative industry studies
+    - Relevance of data (not older than 2-3 years)
+  agent: report_writer

@@ -1,0 +1,67 @@
+review_report:
+  description: >
+    Perform a thorough analysis of the provided research:
+    
+    Source data:
+    - Startup description: {startup_description}
+    - Demand analysis: {demand_research_insights}
+    - Barriers to entry: {barriers_research_insights}
+    - Competence level: {competence_level_research_insights}
+    - Scalability: {scalability_research_insights}
+
+    Required to conduct a critical analysis of each direction, relying on your experience
+  expected_output: >
+    Structured analysis in accordance with the goals {report_reviewer.goal}:
+    - Key facts and statistics
+    - Compliance with ENISA requirements
+    - Risks and opportunities
+    - Recommendations for improvement
+  agent: research_analyst
+
+synthesis_task:
+  description: >
+    Using the results of the analysis, create a draft report.
+
+    Source data:
+    - Demand analysis: {demand_research_insights}
+    - Barriers to entry: {barriers_research_insights}
+    - Competence level: {competence_level_research_insights}
+    - Scalability: {scalability_research_insights}
+  expected_output: >
+    Draft report, corresponding to the goal {business_plan_expert.goal}:
+    1. Demand analysis (up to 1000 characters)
+    2. Barriers to entry (up to 1000 characters)
+    3. Competence level (up to 1000 characters)
+    4. Scalability (up to 1000 characters)
+  agent: business_plan_expert
+
+review_task:
+  description: >
+    Conduct a critical analysis of the prepared report, using your expertise.
+
+    Project context:
+    {startup_description}
+  expected_output: >
+    Detailed recommendations for improvement:
+    - Required additions/reductions
+    - Strengthening argumentation
+    - Required additional data
+    - Improved structure
+  agent: report_reviewer
+
+final_report_task:
+  description: >
+    Based on the received recommendations, create the final version of the report.
+
+    Consider all previous materials:
+    - Primary analysis
+    - Draft report
+    - Recommendations
+  expected_output: >
+    Final report, fully complying with the goal:
+    - Clear structure
+    - Compliance with limits
+    - Supporting data
+    - Persuasive argumentation
+    - Professional formatting
+  agent: business_plan_expert

@@ -1,0 +1,81 @@
+Метрика,Обозначение,Unit,Продукт,Значение
+AOV Small,AOV_S,eur,SupplyChain Blockchain Core Platform,500.0
+AOV Small,AOV_S,eur,SupplyChain Analytics Suite,200.0
+AOV Small,AOV_S,eur,SupplyChain Technical Support & Consulting,100.0
+AOV Medium,AOV_M,eur,SupplyChain Blockchain Core Platform,2000.0
+AOV Medium,AOV_M,eur,SupplyChain Analytics Suite,800.0
+AOV Medium,AOV_M,eur,SupplyChain Technical Support & Consulting,400.0
+AOV Enterprise,AOV_E,eur,SupplyChain Blockchain Core Platform,5000.0
+AOV Enterprise,AOV_E,eur,SupplyChain Analytics Suite,2000.0
+AOV Enterprise,AOV_E,eur,SupplyChain Technical Support & Consulting,1000.0
+AOV Enterprise,AOV_E,eur,SupplyChain Enterprise Solutions,8000.0
+Distribution Small,Dist_S,%,SupplyChain Blockchain Core Platform,50.0
+Distribution Small,Dist_S,%,SupplyChain Analytics Suite,40.0
+Distribution Small,Dist_S,%,SupplyChain Technical Support & Consulting,45.0
+Distribution Small,Dist_S,%,SupplyChain Enterprise Solutions,0.0
+Distribution Medium,Dist_M,%,SupplyChain Blockchain Core Platform,35.0
+Distribution Medium,Dist_M,%,SupplyChain Analytics Suite,40.0
+Distribution Medium,Dist_M,%,SupplyChain Technical Support & Consulting,35.0
+Distribution Medium,Dist_M,%,SupplyChain Enterprise Solutions,0.0
+Distribution Enterprise,Dist_E,%,SupplyChain Blockchain Core Platform,15.0
+Distribution Enterprise,Dist_E,%,SupplyChain Analytics Suite,20.0
+Distribution Enterprise,Dist_E,%,SupplyChain Technical Support & Consulting,20.0
+Distribution Enterprise,Dist_E,%,SupplyChain Enterprise Solutions,100.0
+COGS Small,COGS_S,eur,SupplyChain Blockchain Core Platform,100.0
+COGS Small,COGS_S,eur,SupplyChain Analytics Suite,70.0
+COGS Small,COGS_S,eur,SupplyChain Technical Support & Consulting,25.0
+COGS Medium,COGS_M,eur,SupplyChain Blockchain Core Platform,500.0
+COGS Medium,COGS_M,eur,SupplyChain Analytics Suite,130.0
+COGS Medium,COGS_M,eur,SupplyChain Technical Support & Consulting,100.0
+COGS Enterprise,COGS_E,eur,SupplyChain Blockchain Core Platform,1000.0
+COGS Enterprise,COGS_E,eur,SupplyChain Analytics Suite,500.0
+COGS Enterprise,COGS_E,eur,SupplyChain Technical Support & Consulting,250.0
+COGS Enterprise,COGS_E,eur,SupplyChain Enterprise Solutions,1600.0
+Lifetime Small,Lifetime_S,month,SupplyChain Blockchain Core Platform,24.0
+Lifetime Small,Lifetime_S,month,SupplyChain Analytics Suite,24.0
+Lifetime Small,Lifetime_S,month,SupplyChain Technical Support & Consulting,24.0
+Lifetime Medium,Lifetime_M,month,SupplyChain Blockchain Core Platform,36.0
+Lifetime Medium,Lifetime_M,month,SupplyChain Analytics Suite,36.0
+Lifetime Medium,Lifetime_M,month,SupplyChain Technical Support & Consulting,36.0
+Lifetime Enterprise,Lifetime_E,month,SupplyChain Blockchain Core Platform,48.0
+Lifetime Enterprise,Lifetime_E,month,SupplyChain Analytics Suite,48.0
+Lifetime Enterprise,Lifetime_E,month,SupplyChain Technical Support & Consulting,48.0
+Lifetime Enterprise,Lifetime_E,month,SupplyChain Enterprise Solutions,48.0
+CAC Small,CAC_S,eur,SupplyChain Blockchain Core Platform,2500.0
+CAC Small,CAC_S,eur,SupplyChain Analytics Suite,1500.0
+CAC Small,CAC_S,eur,SupplyChain Technical Support & Consulting,300.0
+CAC Medium,CAC_M,eur,SupplyChain Blockchain Core Platform,7500.0
+CAC Medium,CAC_M,eur,SupplyChain Analytics Suite,4500.0
+CAC Medium,CAC_M,eur,SupplyChain Technical Support & Consulting,1000.0
+CAC Enterprise,CAC_E,eur,SupplyChain Blockchain Core Platform,20000.0
+CAC Enterprise,CAC_E,eur,SupplyChain Analytics Suite,12000.0
+CAC Enterprise,CAC_E,eur,SupplyChain Technical Support & Consulting,2000.0
+CAC Enterprise,CAC_E,eur,SupplyChain Enterprise Solutions,30000.0
+Setup Small,Setup_S,eur,SupplyChain Blockchain Core Platform,500.0
+Setup Small,Setup_S,eur,SupplyChain Analytics Suite,200.0
+Setup Small,Setup_S,eur,SupplyChain Technical Support & Consulting,100.0
+Setup Medium,Setup_M,eur,SupplyChain Blockchain Core Platform,2000.0
+Setup Medium,Setup_M,eur,SupplyChain Analytics Suite,800.0
+Setup Medium,Setup_M,eur,SupplyChain Technical Support & Consulting,400.0
+Setup Enterprise,Setup_E,eur,SupplyChain Blockchain Core Platform,5000.0
+Setup Enterprise,Setup_E,eur,SupplyChain Analytics Suite,2000.0
+Setup Enterprise,Setup_E,eur,SupplyChain Technical Support & Consulting,1000.0
+Setup Enterprise,Setup_E,eur,SupplyChain Enterprise Solutions,10000.0
+Churn Small,Churn_S,%,SupplyChain Blockchain Core Platform,6.0
+Churn Small,Churn_S,%,SupplyChain Analytics Suite,6.0
+Churn Small,Churn_S,%,SupplyChain Technical Support & Consulting,6.0
+Churn Small,Churn_S,%,SupplyChain Enterprise Solutions,0.0
+Churn Medium,Churn_M,%,SupplyChain Blockchain Core Platform,4.0
+Churn Medium,Churn_M,%,SupplyChain Analytics Suite,4.0
+Churn Medium,Churn_M,%,SupplyChain Technical Support & Consulting,4.0
+Churn Medium,Churn_M,%,SupplyChain Enterprise Solutions,0.0
+Churn Enterprise,Churn_E,%,SupplyChain Blockchain Core Platform,3.0
+Churn Enterprise,Churn_E,%,SupplyChain Analytics Suite,3.0
+Churn Enterprise,Churn_E,%,SupplyChain Technical Support & Consulting,3.0
+Churn Enterprise,Churn_E,%,SupplyChain Enterprise Solutions,3.0
+OPEX Разработка,OPEX,eur,All,15000.0
+OPEX DevOps,OPEX,eur,All,5000.0
+OPEX Тестирование,OPEX,eur,All,3000.0
+OPEX Маркетинг,OPEX,eur,All,2000.0
+OPEX Продажи,OPEX,eur,All,6000.0
+OPEX Администрирование,OPEX,eur,All,4000.0

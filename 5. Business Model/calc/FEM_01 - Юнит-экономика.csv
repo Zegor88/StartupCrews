@@ -1,0 +1,61 @@
+DOCS,,,,,,,,,,,,,,,
+Unit Economics,Обозначение,Unit,SupplyChain Blockchain Core Platform,SupplyChain Analytics Suite,SupplyChain Technical Support & Consulting,SupplyChain Enterprise Solutions,,Revenue and Profit,parameter,unit,SupplyChain Blockchain Core Platform,SupplyChain Analytics Suite,SupplyChain Technical Support & Consulting,SupplyChain Enterprise Solutions,
+AOV (Average Order Value),AOV,,,,,,,Средний чек (Weighted AOV),WAO,eur,1 700, 800, 385,8 000,Показывает средний доход с клиента в месяц с учетом распределения по тарифам
+Small,AOV_S,eur, 500, 200, 100,,,Средний COGS,WCOGS,eur, 375, 180, 96,1 600,Определяет средние прямые затраты на обслуживание клиента
+Medium,AOV_M,eur,2 000, 800, 400,,,Customer Acquisition Cost (CAC),WCAC,eur,6 875,4 800, 885,30 000,Показывает средние затраты на привлечение одного клиента
+Enterprise,AOV_E,eur,5 000,2 000,1 000,8 000,,Средние затраты на внедрение,WSetup,eur,1 700, 800, 385,10 000,Единоразовые затраты при подключении клиента
+Sales Distribution Between Versions,Dist,%,,,,,,Средний срок жизни,Avg_Life,month, 32, 34, 33, 48,Прогнозируемая продолжительность работы с клиентом
+Small,Dist_S,%,50%,40%,45%,0%,,Средний месячный Churn,WChurn,%,"4,85%","4,60%","4,70%","3,0%",Ожидаемый процент оттока клиентов
+Medium,Dist_M,%,35%,40%,35%,0%,,Gross Margin,GM,%,"77,94%","77,50%","75,00%","80,0%",Эффективность ценообразования
+Enterprise,Dist_E,%,15%,20%,20%,100%,,Выручка за жизненный цикл,LTR,eur,54 060,26 880,12 705,384 000,Общий доход с одного клиента за весь период
+COGS (Cost of Goods Sold),COGS,,,,,,,Затраты за жизненный цикл,LTC,eur,20 500,11 648,4 446,116 800,Все затраты на привлечение и обслуживание клиента
+Small,COGS_S,eur, 100, 70, 25,,,1. Прибыльность,parameter,unit,,,,,
+Medium,COGS_M,eur, 500, 130, 100,,,Customer Lifetime Value,LTV,,42 135,20 832,9 529,307 200,ценность клиента за весь период сотрудничества
+Enterprise,COGS_E,eur,1 000, 500, 250,1 600,,LTV/CAC Ratio,LTV/CAC,, 6, 4, 11, 10,Эффективность инвестиций в привлечение клиентов
+Customer Lifetime,Lifetime,,,,,,,Маржинальность (%),%,,"51,35%","44,09%","53,34%","61,98%",Процент прибыли после всех прямых затрат
+Small,Life_S,month, 24, 24, 24,,,Contribution Margin,CM,,1 325, 620, 289,6 400,
+Medium,Life_M,month, 36, 36, 36,,,2. Окупаемость,parameter,unit,,,,,
+Enterprise,Life_E,month, 48, 48, 48, 48,,CAC Payback Period,,month," 5,2"," 7,7"," 3,1"," 4,7",Срок возврата инвестиций в привлечение клиента
+Затраты на привлечение,CAC,,,,,,,Time to Profit,,month, 6, 9, 4, 6,Время до выхода в прибыль с учетом всех затрат
+Small,CAC_S,,2 500,1 500, 300,,,NPV на клиента,,,23 285,10 032,6 010,170 169,Приведенную стоимость денежных потоков от клиента
+Medium,CAC_M,,7 500,4 500,1 000,,,3. Эффективность роста,parameter,unit,,,,,
+Enterprise,CAC_E,,20 000,12 000,2 000,30 000,,Monthly Recurring Revenue,MRR,,15 300,12 000,8 855,16 000,Предсказуемый ежемесячный доход
+Затраты на внедрение,Setup,,,,,,,Net Revenue Retention,NRR,,"105,2%","105,4%","105,3%","107,0%",Способность удерживать и развивать существующих клиентов
+Small,Setup_S,, 500, 200, 100,,,Customer Acquisition Efficiency,,,"2,55","2,00","1,48","2,67",
+Medium,Setup_M,,2 000, 800, 400,,,,,,,,,,
+Enterprise,Setup_E,,5 000,2 000,1 000,10 000,,,,,,,,,
+Ежемесячный churn,Churn,,,,,,,,,,,,,,
+Small,Churn_S,,6%,6%,6%,0%,,,,,,,,,
+Medium,Churn_M,,"4,0%","4,0%","4,0%",,,,,,,,,,
+Enterprise,Churn_E,,"3,0%","3,0%","3,0%","3,0%",,,,,,,,,
+,,,,,,,,,,,,,,,
+OPEX,,,,,,,,,,,,,,,
+Разработка,15000,,,,,,,,,,,,,,
+DevOps,5000,,,,,,,,,,,,,,
+Тестирование,3000,,,,,,,,,,,,,,
+Маркетинг,2000,,,,,,,,,,,,,,
+Продажи,6000,,,,,,,,,,,,,,
+Администрирование,4000,,"50,00%","50,00%","50,00%","50,00%",,,,,,,,,
+,,,SupplyChain Blockchain Core Platform,SupplyChain Analytics Suite,SupplyChain Technical Support & Consulting,SupplyChain Enterprise Solutions,,,,,,,,,
+Клиенты в 1й год,,,9,15,23,2,,,,,,,,,
+Клиенты в 2й год,,,14,23,35,3,,,,,,,,,
+Клиенты в 3й год,,,20,34,52,5,,,,,,,,,
+Клиенты в 4й год,,,30,51,78,7,,,,,,,,,
+Клиенты в 5й год,,,46,76,116,10,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Новые клиенты в месяц,,,,,,,,,,,,,,,
+Месяц 1-3,,,2,3,5,0,,,,,,,,,
+Месяц 4-6,,,3,5,8,1,,,,,,,,,
+Месяц 7-12,,,4,7,10,1,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Expenses,,,,,,,,,,,,,,,
+Fixed Costs (Annual),,month,12,,,Staff Salaries,,,,eur / month,,,,,
+Annual Salary Expenses,Salaries,eur,270 000,,,Management Staff,,persons, 2,eur / month, 0,,,,
+Management Staff,Management,eur, 0,,,Engineers and R&D,,persons, 4,eur / month,4 000,,,,
+Engineers and R&D,R&,eur,192 000,,,Sales and Marketing,,persons, 1,eur / month,3 500,,,,
+Sales and Marketing,Sales_marketing,eur,42 000,,,Technical Support,,persons, 1,eur / month,3 000,,,,
+Technical Support,Support_costs,eur,36 000,,,,,,,,,,,,

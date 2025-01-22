@@ -1,0 +1,181 @@
+collect_market_data:
+  description: >
+    Perform a deep research analysis of the market for 2024 for the startup below (marked by '###'):
+    ###
+    {structured_idea}
+    ###
+
+    Report must include:
+    - Current market size with specific numbers
+    - Predicted CAGR (compound annual growth rate)
+    - Key market trends
+    - Main growth drivers
+    - Potential barriers and risks
+    
+    Use the available tools to find the latest data from:
+    - Analytical reports
+    - Statistical databases
+    - Market research studies
+    - Industry overviews
+  expected_output: >
+    A structured report on the market state, including:
+    1. A summary of the main findings
+    2. Detailed market metrics with source references
+    3. Analysis of trends with specific examples
+    4. Projections for market development
+  agent: market_researcher
+
+identify_growth_drivers:
+  description: >
+    Perform a detailed analysis of the growth drivers for the startup in 2024 (marked by '###'):
+    ###
+    {structured_idea}
+    ###
+    
+    You must research:
+    - Environmental initiatives and their impact
+    - Technological changes in the industry
+    - Changes in consumer behavior
+    - Regulatory changes
+    - Economic factors
+    
+    For each factor determine:
+    - The degree of influence on the market
+    - The time horizon of the impact
+    - Potential opportunities for the product
+  expected_output: >
+    A structured analysis of growth drivers, including:
+    1. A ranked list of key factors
+    2. An evaluation of the influence of each factor
+    3. Recommendations for using opportunities
+    4. Potential risks and ways to minimize them
+  agent: market_researcher
+
+analyze_local_specifics:
+  description: >
+    Perform a detailed analysis of the specifics of the Spanish market in 2024 for the startup (marked by '###'):
+    ###
+    {structured_idea}
+    ###
+    
+    You must research:
+    - Regulatory initiatives and regulation
+    - Economic conditions and trends
+    - Environmental issues and challenges
+    - Cultural specifics of the market
+    - Competitive environment
+    
+    Pay special attention to:
+    - Local requirements for the product
+    - The specifics of consumer behavior
+    - Distribution channels
+  expected_output: >
+    A detailed report on the specifics of the Spanish market, including:
+    1. An analysis of the regulatory framework
+    2. An evaluation of economic conditions
+    3. A description of environmental challenges
+    4. Recommendations for adapting the product
+  agent: regional_analyst
+
+assess_competition:
+  description: >
+    Perform a detailed analysis of the competitive environment for the startup (marked by '###'):
+    ###
+    {structured_idea}
+    ###
+
+    1. You must identify:
+      - Top 5 direct competitors
+      - Top 3 indirect competitors
+      - Potential new players
+    
+    2. For each competitor you must analyze:
+      - Market share and financial performance
+      - Strengths and weaknesses of the product/service
+      - Pricing policy and positioning
+      - Distribution channels and marketing strategies
+    
+    3. Comparative analysis:
+       - create a detailed comparative table of characteristics
+       - Determine key competitive advantages
+       - Identify unoccupied market niches
+
+  expected_output: >
+    A structured report, including:
+    1. A map of the competitive landscape
+    2. SWOT analysis of key competitors
+    3. A comparative table of products/solutions
+    4. Recommendations for positioning
+    5. A list of sources used
+  agent: competitive_analyst
+
+forecast_demand:
+  description: >
+    Act as a market forecasting expert. Develop a detailed demand forecast for the startup (marked by '###'):
+    ###
+    {structured_idea}
+    ###
+
+    The analysis must include:
+    1. Historical data:
+       - Growth dynamics of the market over the last 5 years
+       - Key events affecting demand
+       - Seasonal fluctuations
+    
+    2. Growth drivers:
+       - Macroeconomic drivers
+       - Technological trends
+       - Changes in consumer behavior
+    
+    3. Forecast models:
+       - Short-term forecast (1-2 years)
+       - Medium-term forecast (3-5 years)
+       - Scenario analysis (optimistic/pessimistic)
+
+  expected_output: >
+    A comprehensive report, including:
+    1. Graphs of historical market dynamics
+    2. Forecast models with justification
+    3. Analysis of growth drivers with quantitative assessment of influence
+    4. Scenario forecasts with probabilities of implementation
+    5. Methodology and data sources
+  agent: data_strategist
+
+compile_final_report:
+  description: >
+    Act as an experienced business analyst. Create a compelling investment report in Russian, demonstrating:
+
+    1. Market potential:
+       - Size of the target market (TAM, SAM, SOM)
+       - Growth rates and drivers
+       - Barriers to entry and risks
+    
+    2. Competitive advantages:
+       - Unique selling proposition
+       - Technological advantages
+       - Economic product
+    
+    3. Investment attractiveness:
+       - Financial forecasts
+       - Potential for scaling
+       - Exit strategy
+
+    All statements must be supported by:
+    - Quantitative data
+    - References to authoritative sources
+    - Results of market research
+
+  expected_output: >
+    A professional report in Russian:
+    1. Clear structure with sections and sub-sections
+    2. Visualization of key data (graphs, tables)
+    3. Executive summary
+    4. List of sources used
+    5. Appendices with detailed data
+
+    Requirements for style:
+    - Business style of presentation
+    - Emphasis on factual data
+    - Absence of subjective assessments
+    - Logical structure of argumentation
+  agent: report_writer

@@ -1,0 +1,191 @@
+competitor_analysis:
+  description: >
+    Based on the startup description and demand reasearch insights,
+    Conduct a deep competitive analysis:
+
+    1. Identification of competitors:
+       - Create a list of direct and indirect competitors
+       - Analyze their market positions and market shares
+       - Study their business models and strategies
+
+    2. SWOT-analysis of competitors:
+       - Identify strengths and weaknesses of each competitor
+       - Identify their opportunities and threats on the market
+       - Evaluate their competitive advantages
+
+    3. Comparative analysis:
+       - Compare key characteristics of products/services
+       - Analyze pricing strategies
+       - Evaluate marketing approaches and channels
+
+    4. Unique selling proposition:
+       - Identify key differences of your solution
+       - Highlight innovative aspects
+       - Justify competitive advantages
+
+    Startup description:
+    {startup_description}
+
+    Demand reasearch insights:
+    {demand_research_insights}
+
+  expected_output: >
+    Detailed competitive analysis, including:
+    1. Competitive landscape map
+    2. Comparative table of competitors
+    3. SWOT-analysis of key players
+    4. Analysis of competitive advantages
+    5. Recommendations for positioning
+  agent: competitive_analyst
+
+technical_benchmarking:
+  description: >
+    Based on the startup description and demand reasearch insights,
+    Conduct a comprehensive technical analysis of solutions:
+
+    1. Technology stack:
+       - Evaluate used technologies and innovations
+       - Analyze technical architecture
+       - Study scalability potential
+
+    2. Comparative analysis:
+       - Compare technical characteristics of products
+       - Evaluate performance and efficiency
+       - Analyze reliability and security
+
+    3. Innovation:
+       - Identify unique technical solutions
+       - Evaluate potential development of technologies
+       - Identify technological trends in the industry
+
+    4. Local adaptation:
+       - Analyze compliance with local requirements
+       - Evaluate technical adaptation necessity
+       - Identify technical barriers to entry
+
+    Startup description:
+    {startup_description}
+
+    Demand reasearch insights:
+    {demand_research_insights}
+
+  expected_output: >
+    Technical report, containing:
+    1. Comparison matrix of technical parameters
+    2. Evaluation of innovation of solutions
+    3. Analysis of technological barriers
+    4. Recommendations for technical development
+  agent: technical_specialist
+
+local_market_analysis:
+  description: >
+    Based on the startup description and demand reasearch insights,
+    Conduct a detailed analysis of the local market:
+
+    1. Market specifics:
+       - Analyze local market specifics
+       - Identify key success factors
+       - Identify local trends and trends
+
+    2. Customer needs:
+       - Analyze local customer needs
+       - Evaluate readiness for innovation
+       - Identify criteria for solution selection
+
+    3. Product adaptation:
+       - Develop a localization strategy
+       - Identify necessary modifications
+       - Evaluate costs of adaptation
+
+    4. Market entry strategy:
+       - Develop a plan for entering the market
+       - Identify key stages
+       - Evaluate risks and opportunities
+
+    Startup description:
+    {startup_description}
+
+    Demand reasearch insights:
+    {demand_research_insights}
+
+  expected_output: >
+    Report on the local market, including:
+    1. Analysis of market specifics
+    2. Evaluation of customer needs
+    3. Plan for product adaptation
+    4. Market entry strategy
+  agent: local_expert
+
+competitive_strategy:
+  description: >
+    Based on the provided reports (competitive analysis, technical benchmarking, local market analysis),
+    create a compelling section "2.3 Competence Level", which:
+
+    1. Demonstrates competitive advantages:
+       - Synthesize key findings from competitive analysis
+       - Highlight 3-4 most significant differences from competitors
+       - Support each advantage with specific data
+    
+    2. Highlights technological superiority:
+       - Describe innovative aspects of the solution
+       - Focus on the use of advanced technologies (AI, IoT, etc.)
+       - Demonstrate superiority in key technical parameters
+    
+    3. Focuses on local adaptation:
+       - Show understanding of local market specifics
+       - Describe adaptation strategy to local customer needs
+       - Highlight competitive advantages on local level
+    
+    4. Presents implementation strategy:
+       - Describe specific steps to enter the market
+       - Specify planned pilot projects and partnerships
+       - Present scaling plan
+    
+    Requirements to style:
+    - Use professional business language
+    - Avoid general phrases, focus on specifics
+    - Support all statements with data
+    - Follow logical structure and text coherence
+    
+    Use data from:
+    - Competitive analysis results
+    - Technical benchmarking
+    - Local market analysis
+    - Startup description: {startup_description}
+    - Demand research insights: {demand_research_insights}
+
+  expected_output: >
+    Structured section "2.3 Competence Level" in Russian, including:
+
+    1. Introduction
+       - Brief presentation of key advantages
+
+    2. Competitive analysis
+       - Positioning on the market
+       - Key differences from competitors
+       - Unique advantages
+
+    3. Technological superiority
+       - Innovative aspects
+       - Technical advantages
+       - Scaling potential
+
+    4. Local adaptation
+       - Local specifics
+       - Localization strategy
+       - Competitive advantages
+
+    5. Implementation strategy
+       - Market entry strategy
+       - Key initiatives
+       - Expected results
+
+    6. Conclusion
+       - Summarize competitive advantages
+
+    Requirements to format:
+    - Clear division into subsections
+    - Professional business style
+    - Specific metrics and indicators
+    - References to data sources
+  agent: report_writer

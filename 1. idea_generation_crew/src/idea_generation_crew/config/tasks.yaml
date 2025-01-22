@@ -1,0 +1,54 @@
+research_emerging_trends:
+  description: >
+    Using the avaliable tools, conduct research on trends in areas: {topic}. 
+    Focus on cutting-edge technologies and the most innovative directions in 2025 useful for business and startups.
+  expected_output: >
+    A comprehensive report highlighting top 10 key trends or technologies, including
+    their brief descriptions and potential applications.
+  agent: trend_analyst
+
+analyze_customer_pain_points:
+  description: >
+    Using available tools and data sources, conduct an analysis to identify
+    the key challenges and pain points faced by users in the field of {industry}, as well as startups, and businesses.
+    Ensure that the analysis is relevant to current trends in Spain
+    and aligned with business needs in 2025. Focus on identifying high-frequency 
+    issues and those with significant impact.
+  expected_output: >
+    A list of 3–5 major customer pain points, including detailed explanations of their nature, 
+    frequency, and business impact. The output should be presented in a format that can serve 
+    as a foundation for developing actionable solutions.
+  agent: customer_insight_specialist
+
+develop_innovative_solutions:
+  description: >
+    On the basis of data on trends and identified customer problems (Customer Pain Points),
+    generate 10 really interesting, structured startup ideas with focus on {industry}.
+    Each idea should contain:
+      - A precise formulation of the problem (what is bothering the audience?)
+      - Detailed description of the solution, service or product (what we will offer and how it exactly solves the problem?).
+      - Target audience (B2B/B2C, industry, scale)
+      - Unique advantage (what is the key innovation?)
+      - Proposed business model (how to monetize?)
+      - Example of implementation
+  expected_output: >
+    A list of 10 startup ideas in a clear, understandable and clear structured format that shows the best description of the ideas.
+  agent: innovative_ideas_developer
+
+create_concept_paper:
+  description: >
+    Select 3 most promising ideas and create a «Concept Paper» (or «Product Vision Document») for each:
+      - A brief description of the problem and its importance
+      - 2-3 examples of what and how exactly service/product solve the problem
+      - Target market and user (why this market is promising)
+      - Key features/functionalities, in what it is unique, what is the key innovation, what is the difference from already existing on the market?
+      - Technical implementation (high-level architecture, technologies)
+      - Compliance with ENISA and «Ley 28/2022» standards (innovation, scalability, sustainability)
+      - Risks and risk management plan (financial, technological, reputational)
+      - Potential for scaling and economic impact
+    The result should be a document in Russian language that can be provided to the team, mentors, or investors.
+  expected_output: >
+    A formatted document «Concept Paper» or «Product Vision Document» for 3 ideas in Russian language,
+    where the value, technical and commercial feasibility, and compliance with 
+    legal and industry standards (ENISA, «Ley 28/2022») are clearly shown.
+  agent: concept_paper_specialist

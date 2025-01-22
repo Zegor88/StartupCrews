@@ -1,0 +1,49 @@
+idea_structuring_task:
+  description: >
+    Develop a clear, structured description of an idea, covering the target 
+    audience, problem statement, unique product features, and use cases. 
+    Then, prepare a brief for researchers with hypotheses and key market 
+    research questions.
+    
+    steps_to_complete:
+      - Focus on the target audience:
+        - Refine B2B client segmentation (small, medium, large businesses)
+        - Identify relevant industries (retail, e-commerce, logistics)
+        - Specify geographic focus (Spain, EU countries)
+      - Clarify the problem statement:
+        - Make the problem measurable
+        - Identify key metrics affected (e.g., margins, profits, price stability)
+        - Describe the main pain points of clients
+      - Define the unique value proposition (UVP):
+        - Highlight key technological and business features that make the product 
+          innovative and competitive
+      - Develop a use case:
+        - Describe how the product works for the customer and the benefits it delivers 
+          using a practical example
+      - Create the research brief:
+        - Summarize the product, audience, problem, hypotheses, and key research 
+          questions into a document
+      - Define the report format:
+        - Specify the structure of the final report (metrics, analytics, recommendations) 
+          for easy analysis
+
+    Here is the raw idea:
+    {raw_idea}
+    
+  expected_output: >
+    - A fully refined idea presented in a structured format with details on:
+      - Target audience: segmentation of B2B clients (small, medium, large businesses), 
+        relevant industries (retail, e-commerce, logistics), and localization (Spain, EU countries).
+      - Problem statement: measurable problem with key impacted metrics 
+        (e.g., margins, profits, price stability) and core customer pain points.
+      - Unique value proposition (UVP): key technological and business features 
+        that make the product innovative and competitive.
+      - Use case: practical application of the product and the value it delivers 
+        to the customer, illustrated with a real-world example.
+    - A comprehensive brief for researchers, including:
+      - Product overview
+      - Target audience details
+      - Problem description
+      - Hypotheses for validation
+      - Key market research questions
+  agent: market_research_planner
