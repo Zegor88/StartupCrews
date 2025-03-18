@@ -11,8 +11,8 @@ def run():
     Run the crew.
     """
     inputs = {
-        'topic': 'AI Agents, OCR, RAG',
-        'industry': 'Finance, Self Healthcare, Education'
+        'topic': 'Blockchain, Stablecoins',
+        'industry': 'Islamic Finance'
     }
 
     IdeaGenerationCrew().crew().kickoff(inputs=inputs)

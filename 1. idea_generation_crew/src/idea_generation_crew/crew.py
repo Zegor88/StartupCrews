@@ -3,6 +3,11 @@ from crewai.project import CrewBase, agent, crew, task
 from crewai_tools import PDFSearchTool, TXTSearchTool
 from idea_generation_crew.tools.PerplexitySearchTool import PerplexitySearchTool
 
+import os
+import dotenv
+
+dotenv.load_dotenv()
+
 # ============================== TOOLS ==============================
 
 perplexity_search = PerplexitySearchTool()
